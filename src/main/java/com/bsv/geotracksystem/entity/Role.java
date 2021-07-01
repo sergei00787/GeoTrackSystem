@@ -1,13 +1,12 @@
 package com.bsv.geotracksystem.entity;
 
 import lombok.Data;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 
-@Data
+import javax.persistence.*;
+
+
 @Entity
+@Table(name="t_role")
 public class Role {
 
     @Id
